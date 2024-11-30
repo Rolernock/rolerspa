@@ -1,0 +1,19 @@
+{
+  "name": "rolerspa",
+  "version": "1.0.0",
+  "description": "Experience ultimate relaxation at Bliss Spa Center. Indulge in premium massage therapies, Ayurveda treatments, and luxury spa services designed to rejuvenate your mind, body, and soul.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "build": "npm i --prefix ./client && npm run build --prefix ./client && npm i",
+    "server": "nodemon server"
+  },
+  "author": "Rolernock Goines",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.8.3"
+  }
+}

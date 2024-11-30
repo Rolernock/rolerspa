@@ -1,0 +1,19 @@
+.icon-large {
+  font-size: 7rem;
+}
+
+.carousel-image {
+  height: 92vh;
+  object-fit: cover;
+}
+
+.carousel-caption-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+  color: #fff;
+}
